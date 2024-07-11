@@ -1,7 +1,7 @@
 I wanted to experiment with a functional model as opposed to a sequential so I began by implementing that.
 
 For the original functional model I received this as results: 333/333 - 1s - 2ms/step - accuracy: 0.9364 - loss: 0.3778
-Not too bad but not great either, this was done wiht a simple structure consisting of 1 1 convolutional , 1 pool and 1 dense dropout layer.
+Not too bad but not great either, this was done with a simple structure consisting of 1 1 convolutional , 1 pool and 1 dense dropout layer.
 
 I went on to test the functional model with a bunch more convolutional layers. This time I added 2 more convolutional layers each with a filter vlaue of 64 (opposed to 32 the first time), I also added another pool and 2 more dropout layers. This approach gave me worse results :(. I ran it twice and got the following:
 
